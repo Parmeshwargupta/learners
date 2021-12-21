@@ -1,0 +1,168 @@
+#box {
+    width: 1050px;
+    /* border: 1px solid gray; */
+    margin: 0 auto;
+}
+
+body {
+    font: arial, helvetica, sans-serif;
+}
+
+#brand {
+    float: left;
+}
+
+#header {
+    height: 100px;
+    padding: px 0px;
+    margin-top:
+}
+
+h1 a {
+    font-size: 50px;
+    font-weight: 100;
+    color: indigo;
+    text-decoration: none;
+    margin: 10px;
+}
+
+#searchbox {
+    float: right;
+    background: linear-gradient(#E4F289, #87E953);
+    width: 400px;
+    height: 50px;
+    margin-top: 25px;
+}
+
+.text {
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: hotpink;
+    background: url(search1.png) white right no-repeat;
+    border: 1px solid rgb(172, 245, 27);
+}
+
+.submit {
+    float: right;
+    margin-right: 10px;
+    margin-top: 15px;
+    background-color: rgb(169, 102, 218);
+}
+
+.clear {
+    clear: both;
+}
+
+#menu {
+    height: 70px;
+    background: linear-gradient(#F8F594, #d5d533);
+    padding: 7px 0;
+}
+
+ul {
+    list-style: none;
+}
+
+#menu ul li {
+    float: left;
+    padding: 0px 43px;
+    border-right: 1px solid blueviolet;
+    text-align: center;
+}
+
+#menu ul li:last-child {
+    border-right: none;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size 17px;
+    color: indigo;
+    line-height: 30px;
+    transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover {
+    font-size: 20px;
+    font-weight: bold;
+    color: #c34fdb;
+    ;
+}
+
+#introduction {
+    background: linear-gradient(rgb(183, 224, 149), rgb(151, 165, 29));
+    padding: 30px;
+    margin: 10px 0px;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: normal;
+    color: rgb(36, 58, 13);
+}
+
+p {
+    font-size: 25px;
+    color: rgb(44, 78, 11);
+    text-align: justify;
+}
+
+.sidebox {
+    width: 450px;
+    height: 500px;
+    border: 1px solid;
+    border-color: rgb(219, 214, 214);
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebox h3 {
+    color: rgb(84, 46, 119);
+    font-size: 30px;
+}
+
+.sidebox ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(56, 113, 218);
+}
+
+.sidebox ul li a:hover {
+    text-decoration: none;
+    color: rgb(104, 33, 163);
+    font-size: 22px;
+    font-weight: bold;
+    transition: font-size 0.3s ease;
+}
+
+#leftsidebox ul li {
+    padding-bottom: 6px;
+    padding-left: 10px;
+    list-style-image: url(arrow.png)
+}
+
+#rightsidebox ul li {
+    padding-bottom: 6px;
+    list-style-image: url(check.png);
+    padding: 5px;
+}
+
+#leftsidebox {
+    float: left;
+}
+
+#rightsidebox {
+    float: right;
+}
+
+.footer {
+    height: 50px;
+    border: 1px solid rgb(216, 248, 75);
+    background: linear-gradient( rgb(224, 219, 113), yellow);
+    padding: 0 30px 30px;
+    margin-top: 15px;
+}
